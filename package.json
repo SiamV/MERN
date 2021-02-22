@@ -1,0 +1,14 @@
+{
+  "name": "start_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SiamV/MERN.git",
+  "author": "Vitaly <avers3452@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "scripts": {
+    "start_app": "concurrently \"cd server && yarn server\" \"cd client && yarn start \" "
+  }
+}
